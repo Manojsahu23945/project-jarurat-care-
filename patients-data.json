@@ -1,0 +1,100 @@
+{
+  "patients": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "age": 45,
+      "contact": "+1 (555) 123-4567",
+      "gender": "Male",
+      "condition": "Hypertension",
+      "lastVisit": "2025-10-10",
+      "address": "123 Main St, New York, NY 10001",
+      "email": "john.smith@example.com",
+      "emergencyContact": "+1 (555) 987-6543"
+    },
+    {
+      "id": 2,
+      "name": "Sarah Johnson",
+      "age": 32,
+      "contact": "+1 (555) 234-5678",
+      "gender": "Female",
+      "condition": "Diabetes",
+      "lastVisit": "2025-10-12",
+      "address": "456 Oak Ave, Los Angeles, CA 90210",
+      "email": "sarah.j@example.com",
+      "emergencyContact": "+1 (555) 876-5432"
+    },
+    {
+      "id": 3,
+      "name": "Robert Davis",
+      "age": 67,
+      "contact": "+1 (555) 345-6789",
+      "gender": "Male",
+      "condition": "Arthritis",
+      "lastVisit": "2025-10-05",
+      "address": "789 Pine Rd, Chicago, IL 60601",
+      "email": "robert.davis@example.com",
+      "emergencyContact": "+1 (555) 765-4321"
+    },
+    {
+      "id": 4,
+      "name": "Emily Wilson",
+      "age": 28,
+      "contact": "+1 (555) 456-7890",
+      "gender": "Female",
+      "condition": "Asthma",
+      "lastVisit": "2025-10-15",
+      "address": "101 Maple Dr, Houston, TX 77001",
+      "email": "emily.wilson@example.com",
+      "emergencyContact": "+1 (555) 654-3210"
+    },
+    {
+      "id": 5,
+      "name": "Michael Brown",
+      "age": 54,
+      "contact": "+1 (555) 567-8901",
+      "gender": "Male",
+      "condition": "Heart Disease",
+      "lastVisit": "2025-10-08",
+      "address": "202 Elm St, Phoenix, AZ 85001",
+      "email": "michael.brown@example.com",
+      "emergencyContact": "+1 (555) 543-2109"
+    },
+    {
+      "id": 6,
+      "name": "Jennifer Lee",
+      "age": 39,
+      "contact": "+1 (555) 678-9012",
+      "gender": "Female",
+      "condition": "Migraine",
+      "lastVisit": "2025-10-14",
+      "address": "303 Cedar Ln, Philadelphia, PA 19101",
+      "email": "jennifer.lee@example.com",
+      "emergencyContact": "+1 (555) 432-1098"
+    },
+    {
+      "id": 7,
+      "name": "David Miller",
+      "age": 51,
+      "contact": "+1 (555) 789-0123",
+      "gender": "Male",
+      "condition": "High Cholesterol",
+      "lastVisit": "2025-10-09",
+      "address": "404 Birch Blvd, San Antonio, TX 78201",
+      "email": "david.miller@example.com",
+      "emergencyContact": "+1 (555) 321-0987"
+    },
+    {
+      "id": 8,
+      "name": "Lisa Taylor",
+      "age": 35,
+      "contact": "+1 (555) 890-1234",
+      "gender": "Female",
+      "condition": "Anxiety",
+      "lastVisit": "2025-10-13",
+      "address": "505 Spruce Way, San Diego, CA 92101",
+      "email": "lisa.taylor@example.com",
+      "emergencyContact": "+1 (555) 210-9876"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jarurat Care - Patient Records Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="preloader.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="spinner"></div>
+    </div>
+    
+    <header>
+        <div class="container">
+            <h1 class="logo">Jarurat Care</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="patients.html">Patients</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Welcome to Jarurat Care</h2>
+                <p>Your comprehensive patient records management system</p>
+            </div>
+        </section>
+        
+        <section class="dashboard-overview">
+            <div class="container">
+                <h3>Dashboard Overview</h3>
+                <div class="stats">
+                    <div class="stat-card">
+                        <h4>Total Patients</h4>
+                        <p class="stat-number">124</p>
+                    </div>
+                    <div class="stat-card">
+                        <h4>New Today</h4>
+                        <p class="stat-number">5</p>
+                    </div>
+                    <div class="stat-card">
+                        <h4>Active Cases</h4>
+                        <p class="stat-number">28</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Jarurat Care. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script>
+        // Preloader functionality
+        window.addEventListener('load', function() {
+            const preloader = document.querySelector('.preloader');
+            setTimeout(function() {
+                preloader.classList.add('hidden');
+            }, 500);
+        });
+    </script>
+</body>
+</html>

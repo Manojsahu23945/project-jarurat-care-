@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Jarurat Care</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="preloader.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="spinner"></div>
+    </div>
+    
+    <header>
+        <div class="container">
+            <h1 class="logo">Jarurat Care</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="patients.html">Patients</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section class="about-header">
+            <div class="container">
+                <h2>About Jarurat Care</h2>
+                <p>Learn more about our patient care management system</p>
+            </div>
+        </section>
+        
+        <section class="about-content">
+            <div class="container">
+                <div class="about-section">
+                    <h3>Our Mission</h3>
+                    <p>Jarurat Care is dedicated to providing healthcare professionals with an intuitive and efficient platform for managing patient records. Our system streamlines the process of storing, accessing, and updating patient information, allowing medical staff to focus more time on patient care.</p>
+                </div>
+                
+                <div class="about-section">
+                    <h3>Key Features</h3>
+                    <ul>
+                        <li>Secure patient data storage</li>
+                        <li>Easy search and filtering capabilities</li>
+                        <li>Comprehensive patient history tracking</li>
+                        <li>User-friendly interface</li>
+                        <li>Multi-user access with role-based permissions</li>
+                        <li>Real-time data synchronization</li>
+                    </ul>
+                </div>
+                
+                <div class="about-section">
+                    <h3>Contact Us</h3>
+                    <p>If you have any questions or need support, please reach out to our team:</p>
+                    <p>Email: support@jaruratcare.com</p>
+                    <p>Phone: +1 (555) 123-4567</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Jarurat Care. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script>
+        // Preloader functionality
+        window.addEventListener('load', function() {
+            const preloader = document.querySelector('.preloader');
+            setTimeout(function() {
+                preloader.classList.add('hidden');
+            }, 500);
+        });
+    </script>
+</body>
+</html>

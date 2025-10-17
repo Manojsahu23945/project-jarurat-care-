@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patients - Jarurat Care</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="preloader.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="spinner"></div>
+    </div>
+    
+    <header>
+        <div class="container">
+            <h1 class="logo">Jarurat Care</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="patients.html" class="active">Patients</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section class="patients-header">
+            <div class="container">
+                <h2>Patient Records</h2>
+                <p>Manage and view patient information</p>
+            </div>
+        </section>
+        
+        <section class="patients-content">
+            <div class="container">
+                <div class="search-bar">
+                    <input type="text" id="searchInput" placeholder="Search patients by name...">
+                    <button id="searchBtn">Search</button>
+                </div>
+                
+                <div id="patients-container" class="patients-grid">
+                    <!-- Patient cards will be dynamically inserted here -->
+                </div>
+                
+                <div class="add-patient">
+                    <button id="addPatientBtn" class="primary-btn">Add New Patient</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Patient Details Modal -->
+    <div id="patientModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="patient-details">
+                <!-- Patient details will be dynamically inserted here -->
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Jarurat Care. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="patients.js"></script>
+    
+    <script>
+        // Preloader functionality
+        window.addEventListener('load', function() {
+            const preloader = document.querySelector('.preloader');
+            setTimeout(function() {
+                preloader.classList.add('hidden');
+            }, 500);
+        });
+    </script>
+</body>
+</html>
